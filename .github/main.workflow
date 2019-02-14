@@ -1,6 +1,6 @@
 workflow "Test" {
   resolves = ["Create File"]
-  on = "issues"
+  on = "push"
 }
 
 action "Create File" {

@@ -14,5 +14,5 @@ action "Create File" {
 action "actions/bin/sh" {
   uses = "actions/bin/sh@master"
   needs = ["Create File"]
-  args = "cat test_file"
+  args = "\"cat test_file\""
 }

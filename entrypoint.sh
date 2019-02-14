@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo $FILE_NAME > $FILE_DATA
+echo $FILE_DATA > $FILE_NAME

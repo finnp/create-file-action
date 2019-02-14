@@ -8,6 +8,6 @@ LABEL "com.github.actions.icon"="file-plus"
 # And all of the available colors: https://developer.github.com/actions/creating-github-actions/creating-a-docker-container/#label
 LABEL "com.github.actions.color"="green"
 
-COPY . .
+COPY entrypoint.js /entrypoint.js
 
 ENTRYPOINT ["node", "/entrypoint.js"]

@@ -1,0 +1,12 @@
+{
+  "name": "create-file-action",
+  "version": "1.0.0",
+  "description": "Create a file",
+  "main": "entrypoint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Finn Pauls",
+  "license": "ISC"
+}

@@ -20,7 +20,7 @@ action "Create file" {
   uses = "finnp/create-file-action@master"
   env = {
     FILE_NAME = "example.md"
-    FILE_DATA = "ZWFzdGVyZWdnLWxvbAo="
+    FILE_BASE64 = "ZWFzdGVyZWdnLWxvbAo="
   }
 }
 ```

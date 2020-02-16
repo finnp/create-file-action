@@ -4,23 +4,17 @@ Github Action to create a new file from environment config
 ## Usage with String `FILE_DATA`
 
 ```workflow
-action "Create file" {
-  uses = "finnp/create-file-action@master"
-  env = {
-    FILE_NAME = "example.md"
-    FILE_DATA = "#Example file\nThis is an example"
-  }
-}
+- uses: "finnp/create-file-action@master"
+      env:
+        FILE_NAME: "dir/fileName.txt"
+        FILE_DATA: "file content"
 ```
 
 ## Usage with base64 `FILE_BASE64`
 
 ```workflow
-action "Create file" {
-  uses = "finnp/create-file-action@master"
-  env = {
-    FILE_NAME = "example.md"
-    FILE_DATA = "ZWFzdGVyZWdnLWxvbAo="
-  }
-}
+- uses: "finnp/create-file-action@master"
+      env:
+        FILE_NAME: "dir/fileName.txt"
+        FILE_BASE64: "file content"
 ```

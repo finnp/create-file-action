@@ -1,0 +1,2 @@
+- name: Read package.json version
+  uses: dutscher/read-package-json-endpoint-actions@v1.3.37

@@ -16,5 +16,5 @@ Github Action to create a new file from environment config
 - uses: "finnp/create-file-action@master"
       env:
         FILE_NAME: "dir/fileName.txt"
-        FILE_BASE64: "file content"
+        FILE_BASE64: "ZWFzdGVyZWdnLWxvbAo="
 ```

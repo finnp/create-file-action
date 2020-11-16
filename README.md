@@ -18,3 +18,5 @@ Github Action to create a new file from environment config
         FILE_NAME: "dir/fileName.txt"
         FILE_BASE64: "ZWFzdGVyZWdnLWxvbAo="
 ```
+
+Create your file with `cat filename | base64`
